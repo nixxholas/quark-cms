@@ -1,0 +1,9 @@
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/bin/Debug/netcoreapp2.1/Delta.Trinity.deps.json
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/bin/Debug/netcoreapp2.1/Delta.Trinity.dll
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/bin/Debug/netcoreapp2.1/Delta.Trinity.pdb
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.csprojAssemblyReference.cache
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.csproj.CoreCompileInputs.cache
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.AssemblyInfoInputs.cache
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.AssemblyInfo.cs
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.dll
+/Users/nixholas/Projects/DeltaCMS/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.pdb

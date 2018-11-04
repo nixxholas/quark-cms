@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/nixholas/Projects/DeltaCMS/Delta.DataAccess/Delta.DataAccess.csproj",
+    "projectName": "Delta.DataAccess",
+    "projectPath": "/Users/nixholas/Projects/DeltaCMS/Delta.DataAccess/Delta.DataAccess.csproj",
+    "outputPath": "/Users/nixholas/Projects/DeltaCMS/Delta.DataAccess/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/nixholas/Projects/DeltaCMS/Delta.Core/Delta.Core.csproj": {
+            "projectPath": "/Users/nixholas/Projects/DeltaCMS/Delta.Core/Delta.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[2.2.0-preview3-35497, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+          "target": "Package",
+          "version": "[2.0.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "[2.2.0-preview3-35497, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "MySql.Data.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[8.0.13, )"
+        },
+        "MySql.Data.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[8.0.13, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
