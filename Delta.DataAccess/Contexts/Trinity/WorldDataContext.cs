@@ -1,5 +1,6 @@
 ﻿using Delta.Trinity.World;
 using Microsoft.EntityFrameworkCore;
+using Remotion.Linq.Parsing.Structure.IntermediateModel;
 using Version = Delta.Trinity.World.Version;
 
 namespace Delta.DataAccess.Contexts.Trinity
@@ -51,6 +52,7 @@ namespace Delta.DataAccess.Contexts.Trinity
         public virtual DbSet<CreatureQuestender> CreatureQuestender { get; set; }
         public virtual DbSet<CreatureQuestitem> CreatureQuestitem { get; set; }
         public virtual DbSet<CreatureQueststarter> CreatureQueststarter { get; set; }
+        public virtual DbSet<CreatureSummonGroup> CreatureSummonGroups { get; set; }
         public virtual DbSet<CreatureTemplate> CreatureTemplate { get; set; }
         public virtual DbSet<CreatureTemplateAddon> CreatureTemplateAddon { get; set; }
         public virtual DbSet<CreatureTemplateLocale> CreatureTemplateLocale { get; set; }
@@ -60,9 +62,11 @@ namespace Delta.DataAccess.Contexts.Trinity
         public virtual DbSet<CriteriaData> CriteriaData { get; set; }
         public virtual DbSet<Disables> Disables { get; set; }
         public virtual DbSet<DisenchantLootTemplate> DisenchantLootTemplate { get; set; }
+        public virtual DbSet<EventScript> EventScripts { get; set; }
         public virtual DbSet<ExplorationBasexp> ExplorationBasexp { get; set; }
         public virtual DbSet<FishingLootTemplate> FishingLootTemplate { get; set; }
         public virtual DbSet<GameEvent> GameEvent { get; set; }
+        public virtual DbSet<GameEventArenaSeason> GameEventArenaSeasons { get; set; }
         public virtual DbSet<GameEventBattlegroundHoliday> GameEventBattlegroundHoliday { get; set; }
         public virtual DbSet<GameEventCondition> GameEventCondition { get; set; }
         public virtual DbSet<GameEventCreature> GameEventCreature { get; set; }
@@ -196,10 +200,13 @@ namespace Delta.DataAccess.Contexts.Trinity
         public virtual DbSet<SpellGroup> SpellGroup { get; set; }
         public virtual DbSet<SpellGroupStackRules> SpellGroupStackRules { get; set; }
         public virtual DbSet<SpellLearnSpell> SpellLearnSpell { get; set; }
+        public virtual DbSet<SpellLinkedSpell> SpellLinkedSpells { get; set; }
         public virtual DbSet<SpellLootTemplate> SpellLootTemplate { get; set; }
         public virtual DbSet<SpellPetAuras> SpellPetAuras { get; set; }
         public virtual DbSet<SpellProc> SpellProc { get; set; }
         public virtual DbSet<SpellRequired> SpellRequired { get; set; }
+        public virtual DbSet<SpellScriptName> SpellScriptNames { get; set; }
+        public virtual DbSet<SpellScript> SpellScripts { get; set; }
         public virtual DbSet<SpellTargetPosition> SpellTargetPosition { get; set; }
         public virtual DbSet<SpellThreat> SpellThreat { get; set; }
         public virtual DbSet<SpellTotemModel> SpellTotemModel { get; set; }
@@ -219,13 +226,6 @@ namespace Delta.DataAccess.Contexts.Trinity
         public virtual DbSet<WaypointData> WaypointData { get; set; }
         public virtual DbSet<Waypoints> Waypoints { get; set; }
         public virtual DbSet<WaypointScripts> WaypointScripts { get; set; }
-
-        // Unable to generate entity type for table 'world.creature_summon_groups'. Please see the warning messages.
-        // Unable to generate entity type for table 'world.event_scripts'. Please see the warning messages.
-        // Unable to generate entity type for table 'world.game_event_arena_seasons'. Please see the warning messages.
-        // Unable to generate entity type for table 'world.spell_linked_spell'. Please see the warning messages.
-        // Unable to generate entity type for table 'world.spell_scripts'. Please see the warning messages.
-        // Unable to generate entity type for table 'world.spell_script_names'. Please see the warning messages.
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -1453,6 +1453,47 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasDefaultValueSql("0");
             });
 
+            modelBuilder.Entity<CreatureSummonGroup>(entity =>
+            {
+                entity.ToTable("creature_summon_groups", "world");
+                
+                entity.Property(e => e.SummonerId)
+                    .HasColumnName("summonerId")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.SummonerType)
+                    .HasColumnName("summonerType")
+                    .HasColumnType("tinyint(3) unsigned");
+
+                entity.Property(e => e.GroupId)
+                    .HasColumnName("groupId")
+                    .HasColumnType("tinyint(3) unsigned");
+
+                entity.Property(e => e.Entry)
+                    .HasColumnName("entry")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.PositionX)
+                    .HasColumnName("position_x")
+                    .HasColumnType("float");
+
+                entity.Property(e => e.PositionY)
+                    .HasColumnName("position_y")
+                    .HasColumnType("float");
+
+                entity.Property(e => e.PositionZ)
+                    .HasColumnName("position_z")
+                    .HasColumnType("float");
+                
+                entity.Property(e => e.SummonType)
+                    .HasColumnName("summonType")
+                    .HasColumnType("tinyint(3) unsigned");
+
+                entity.Property(e => e.SummonTime)
+                    .HasColumnName("summonTime")
+                    .HasColumnType("int(10) unsigned");
+            });
+
             modelBuilder.Entity<CreatureTemplate>(entity =>
             {
                 entity.HasKey(e => e.Entry);
@@ -2145,6 +2186,51 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasDefaultValueSql("0");
             });
 
+            modelBuilder.Entity<EventScript>(entity =>
+            {
+                entity.ToTable("event_scripts", "world");
+                
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.Delay)
+                    .HasColumnName("delay")
+                    .HasColumnType("int(10) unsigned");
+
+                entity.Property(e => e.Command)
+                    .HasColumnName("command")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.Datalong)
+                    .HasColumnName("datalong")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.Datalong2)
+                    .HasColumnName("datalong2")
+                    .HasColumnType("int(10) unsigned");
+
+                entity.Property(e => e.Dataint)
+                    .HasColumnName("dataint")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.X)
+                    .HasColumnName("x")
+                    .HasColumnType("float");
+                
+                entity.Property(e => e.Y)
+                    .HasColumnName("y")
+                    .HasColumnType("float");
+                
+                entity.Property(e => e.Z)
+                    .HasColumnName("z")
+                    .HasColumnType("float");
+                
+                entity.Property(e => e.O)
+                    .HasColumnName("o")
+                    .HasColumnType("float");
+            });
+
             modelBuilder.Entity<FishingLootTemplate>(entity =>
             {
                 entity.HasKey(e => new { e.Entry, e.Item });
@@ -2233,6 +2319,23 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasColumnName("world_event")
                     .HasColumnType("tinyint(3) unsigned")
                     .HasDefaultValueSql("0");
+            });
+            
+            modelBuilder.Entity<GameEventArenaSeason>(entity =>
+            {
+                entity.HasKey(e => new { e.Season, e.EventEntry }).HasName("season");
+                
+                entity.HasIndex(e => new { e.Season, e.EventEntry }).HasName("season");
+
+                entity.ToTable("game_event_arena_seasons", "world");
+
+                entity.Property(e => e.EventEntry)
+                    .HasColumnName("eventEntry")
+                    .HasColumnType("tinyint(3) unsigned");
+
+                entity.Property(e => e.Season)
+                    .HasColumnName("season")
+                    .HasColumnType("tinyint(3) unsigned");
             });
 
             modelBuilder.Entity<GameEventBattlegroundHoliday>(entity =>
@@ -7473,6 +7576,31 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasDefaultValueSql("1");
             });
 
+            modelBuilder.Entity<SpellLinkedSpell>(entity =>
+            {
+                entity.HasKey(e => new { e.SpellTrigger, e.SpellEffect }).HasName("trigger_effect_type");
+
+                entity.ToTable("spell_linked_spell", "world");
+
+                entity.HasIndex(e => new {e.SpellTrigger, e.SpellEffect}).IsUnique().HasName("trigger_effect_type");
+
+                entity.Property(e => e.SpellTrigger)
+                    .HasColumnName("spell_trigger")
+                    .HasColumnType("mediumint(8)");
+
+                entity.Property(e => e.SpellEffect)
+                    .HasColumnName("spell_effect")
+                    .HasColumnType("mediumint(8)");
+
+                entity.Property(e => e.Type)
+                    .HasColumnName("type")
+                    .HasColumnType("tinyint(3) unsigned");
+
+                entity.Property(e => e.Comment)
+                    .HasColumnName("comment")
+                    .HasColumnType("text");
+            });
+
             modelBuilder.Entity<SpellLootTemplate>(entity =>
             {
                 entity.HasKey(e => new { e.Entry, e.Item });
@@ -7625,6 +7753,70 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasColumnName("req_spell")
                     .HasColumnType("mediumint(8)")
                     .HasDefaultValueSql("0");
+            });
+
+            modelBuilder.Entity<SpellScriptName>(entity =>
+            {
+                entity.HasKey(e => new { e.SpellId, e.ScriptName }).HasName("spell_id");
+
+                entity.ToTable("spell_script_names", "world");
+
+                entity.HasIndex(e => new { e.SpellId, e.ScriptName }).IsUnique().HasName("spell_id");
+                
+                entity.Property(e => e.SpellId)
+                    .HasColumnName("spell_id")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.ScriptName)
+                    .HasColumnName("ScriptName")
+                    .HasColumnType("char(64)");
+            });
+
+            modelBuilder.Entity<SpellScript>(entity =>
+            {
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.EffIndex)
+                    .HasColumnName("effIndex")
+                    .HasColumnType("tinyint(3) unsigned");
+
+                entity.Property(e => e.Delay)
+                    .HasColumnName("delay")
+                    .HasColumnType("int(10) unsigned");
+
+                entity.Property(e => e.Command)
+                    .HasColumnName("command")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.Datalong)
+                    .HasColumnName("datalong")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.Datalong2)
+                    .HasColumnName("datalong2")
+                    .HasColumnType("mediumint(8) unsigned");
+
+                entity.Property(e => e.Dataint)
+                    .HasColumnName("dataint")
+                    .HasColumnType("int(10) unsigned");
+
+                entity.Property(e => e.X)
+                    .HasColumnName("x")
+                    .HasColumnType("float");
+
+                entity.Property(e => e.Y)
+                    .HasColumnName("y")
+                    .HasColumnType("float");
+
+                entity.Property(e => e.Z)
+                    .HasColumnName("z")
+                    .HasColumnType("float");
+
+                entity.Property(e => e.O)
+                    .HasColumnName("o")
+                    .HasColumnType("float");
             });
 
             modelBuilder.Entity<SpellTargetPosition>(entity =>

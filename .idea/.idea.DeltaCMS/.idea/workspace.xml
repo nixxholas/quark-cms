@@ -2,865 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca9fbb9b-def3-4df9-86fd-da449a2cdfc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/Delta.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/IAggregateRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/bin/Debug/netcoreapp2.1/Delta.Core.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/bin/Debug/netcoreapp2.1/Delta.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/bin/Debug/netcoreapp2.1/Delta.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/bin/Debug/netcoreapp2.1/Delta.Model.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/bin/Debug/netcoreapp2.1/Delta.Model.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/bin/Debug/netcoreapp2.1/Delta.Trinity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/bin/Debug/netcoreapp2.1/Delta.Trinity.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Debug/netcoreapp2.1/Delta.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Delta.Core.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Delta.Core.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/Delta.Core.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Core/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/AuthDataContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/CharactersDataContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/HotfixDataContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/WorldDataContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/Delta.DataAccess.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.DataAccess.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.DataAccess.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.DataAccess.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.DataAccess.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.DataAccess.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.Model.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.Model.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.Trinity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/bin/Debug/netcoreapp2.1/Delta.Trinity.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Debug/netcoreapp2.1/Delta.DataAccess.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Delta.DataAccess.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Delta.DataAccess.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Delta.DataAccess.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/Delta.DataAccess.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.DataAccess/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/Delta.Model.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/bin/Debug/netcoreapp2.1/Delta.Model.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/bin/Debug/netcoreapp2.1/Delta.Model.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/bin/Debug/netcoreapp2.1/Delta.Model.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Delta.Model.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Delta.Model.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/Delta.Model.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Model/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Account.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/AccountAccess.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/AccountBanned.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/AccountLastPlayedCharacter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/AccountMuted.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Autobroadcast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlePetSlots.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlePets.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetAccountBans.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetAccountHeirlooms.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetAccountMounts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetAccountToys.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetAccounts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetItemAppearances.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetItemFavoriteAppearances.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Ip2nation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Ip2nationCountries.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/IpBanned.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Logs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/LogsIpActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/RbacAccountPermissions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/RbacDefaultPermissions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/RbacLinkedPermissions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/RbacPermissions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Realmcharacters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Realmlist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Updates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/UpdatesInclude.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Auth/Uptime.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/AccountData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/AccountInstanceTimes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/AccountTutorial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ArenaTeam.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ArenaTeamMember.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Auctionhouse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/BlackmarketAuctions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Bugreport.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CalendarEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CalendarInvites.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Channels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterAccountData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterAchievement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterAchievementProgress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterArenaStats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterAura.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterAuraEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterBanned.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterBattlegroundData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterBattlegroundRandom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterCufProfiles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterCurrency.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterDeclinedname.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterEquipmentsets.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterFishingsteps.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterGarrison.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterGarrisonBlueprints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterGarrisonBuildings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterGarrisonFollowerAbilities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterGarrisonFollowers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterGifts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterGlyphs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterHomebind.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterInstance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterInventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterPet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterPetDeclinedname.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterPvpTalent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatusDaily.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatusMonthly.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatusObjectives.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatusObjectivesCriteria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatusObjectivesCriteriaProgress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatusRewarded.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatusSeasonal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterQueststatusWeekly.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterReputation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterSkills.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterSocial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterSpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterSpellCharge.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterSpellCooldown.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterStats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterTalent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterTransmogOutfits.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CharacterVoidStorage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Characters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Corpse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CorpsePhases.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/CreatureRespawn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GameEventConditionSave.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GameEventSave.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GameobjectRespawn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GmBug.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GmComplaint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GmComplaintChatlog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GmSuggestion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GroupInstance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GroupMember.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Groups.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Guild.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildAchievement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildAchievementProgress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildBankEventlog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildBankItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildBankRight.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildBankTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildEventlog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildFinderApplicant.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildFinderGuildSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildMember.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildMemberWithdraw.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildNewslog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/GuildRank.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Instance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/InstanceReset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/InstanceScenarioProgress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemInstance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemInstanceArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemInstanceArtifactPowers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemInstanceGems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemInstanceModifiers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemInstanceTransmog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemLootItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemLootMoney.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemRefundInstance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ItemSoulboundTradeData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/LfgData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Mail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/MailItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PetAura.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PetAuraEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PetSpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PetSpellCharge.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PetSpellCooldown.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Petition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PetitionSign.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PoolQuestSave.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PvpstatsBattlegrounds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/PvpstatsPlayers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/QuestTracker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/ReservedName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Updates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/UpdatesInclude.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/WardenAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Characters/Worldstates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Delta.Trinity.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Achievement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/AchievementLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/AnimKit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/AreaGroupMember.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/AreaTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/AreaTableLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/AreaTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArmorLocation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Artifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactAppearance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactAppearanceLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactAppearanceSet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactAppearanceSetLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactCategory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactPower.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactPowerLink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactPowerPicker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactPowerRank.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactQuestXp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactTier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ArtifactUnlock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/AuctionHouse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/AuctionHouseLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BankBagSlotPrices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BannedAddons.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BarberShopStyle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BarberShopStyleLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BattlePetBreedQuality.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BattlePetBreedState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BattlePetSpecies.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BattlePetSpeciesLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BattlePetSpeciesState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BattlemasterList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BattlemasterListLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BroadcastText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/BroadcastTextLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CfgRegions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CharBaseSection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CharSections.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CharStartOutfit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CharTitles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CharTitlesLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CharacterFacialHairStyles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChatChannels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChatChannelsLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChrClasses.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChrClassesLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChrClassesXPowerTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChrRaces.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChrRacesLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChrSpecialization.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ChrSpecializationLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CinematicCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CinematicSequences.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ConversationLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Creature.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CreatureDifficulty.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CreatureDisplayInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CreatureDisplayInfoExtra.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CreatureFamily.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CreatureFamilyLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CreatureModelData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CreatureType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CreatureTypeLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Criteria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CriteriaTree.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CriteriaTreeLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CurrencyTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CurrencyTypesLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Curve.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/CurvePoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/DestructibleModelData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Difficulty.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/DifficultyLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/DungeonEncounter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/DungeonEncounterLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/DurabilityCosts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/DurabilityQuality.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Emotes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/EmotesText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/EmotesTextSound.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Faction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/FactionLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/FactionTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GameobjectDisplayInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Gameobjects.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GameobjectsLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrAbility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrAbilityLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrBuilding.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrBuildingLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrBuildingPlotInst.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrClassSpec.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrClassSpecLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrFollower.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrFollowerLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrFollowerXAbility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrPlot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrPlotBuilding.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrPlotInstance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrPlotLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrSiteLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GarrSiteLevelPlotInst.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GemProperties.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GlyphBindableSpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GlyphProperties.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GlyphRequiredSpec.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GuildColorBackground.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GuildColorBorder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GuildColorEmblem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/GuildPerkSpells.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Heirloom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/HeirloomLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Holidays.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/HotfixData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ImportPriceArmor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ImportPriceQuality.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ImportPriceShield.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ImportPriceWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemAppearance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemArmorQuality.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemArmorShield.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemArmorTotal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemBagFamily.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemBagFamilyLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemBonus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemBonusListLevelDelta.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemBonusTreeNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemChildEquipment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemClassLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemCurrencyCost.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemDamageAmmo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemDamageOneHand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemDamageOneHandCaster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemDamageTwoHand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemDamageTwoHandCaster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemDisenchantLoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemExtendedCost.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemLevelSelector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemLevelSelectorQuality.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemLevelSelectorQualitySet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemLimitCategory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemLimitCategoryCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemLimitCategoryLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemModifiedAppearance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemPriceBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemRandomProperties.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemRandomPropertiesLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemRandomSuffix.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemRandomSuffixLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSearchName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSearchNameLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSetLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSetSpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSparse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSparseLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSpec.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemSpecOverride.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemUpgrade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ItemXBonusTree.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Keychain.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/LfgDungeons.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/LfgDungeonsLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Light.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/LiquidType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Lock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MailTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MailTemplateLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Map.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MapDifficulty.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MapDifficultyLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MapLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ModifierTree.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Mount.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MountCapability.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MountLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MountTypeXCapability.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/MountXDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/NameGen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/NamesProfanity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/NamesReserved.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/NamesReservedLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/OverrideSpellData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Phase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PhaseXPhaseGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PlayerCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PlayerConditionLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PowerDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PowerType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PrestigeLevelInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PrestigeLevelInfoLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PvpDifficulty.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PvpItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PvpReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PvpTalent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PvpTalentLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/PvpTalentUnlock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/QuestFactionReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/QuestMoneyReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/QuestPackageItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/QuestSort.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/QuestSortLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/QuestV2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/QuestXp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/RandPropPoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/RewardPack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/RewardPackXCurrencyType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/RewardPackXItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/RulesetItemUpgrade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SandboxScaling.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ScalingStatDistribution.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Scenario.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ScenarioLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ScenarioStep.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ScenarioStepLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SceneScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SceneScriptGlobalText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SceneScriptPackage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SceneScriptText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SkillLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SkillLineAbility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SkillLineLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SkillRaceClassInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SoundKit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpecializationSpells.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpecializationSpellsLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Spell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellAuraOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellAuraRestrictions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellCastTimes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellCastingRequirements.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellCategories.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellCategory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellCategoryLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellClassOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellCooldowns.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellDuration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellEquippedItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellFocusObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellFocusObjectLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellInterrupts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellItemEnchantment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellItemEnchantmentCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellItemEnchantmentLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellLearnSpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellLevels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellMisc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellPower.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellPowerDifficulty.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellProcsPerMinute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellProcsPerMinuteMod.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellRadius.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellRange.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellRangeLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellReagents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellScaling.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellShapeshift.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellShapeshiftForm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellShapeshiftFormLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellTargetRestrictions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellTotems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SpellXSpellVisual.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/SummonProperties.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TactKey.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Talent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TalentLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TaxiNodes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TaxiNodesLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TaxiPath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TaxiPathNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TotemCategory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TotemCategoryLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Toy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/ToyLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TransmogHoliday.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TransmogSet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TransmogSetGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TransmogSetGroupLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TransmogSetItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TransmogSetLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TransportAnimation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/TransportRotation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/UnitPowerBar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/UnitPowerBarLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Updates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/UpdatesInclude.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/Vehicle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/VehicleSeat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/WmoAreaTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/WmoAreaTableLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/WorldEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/WorldMapArea.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/WorldMapOverlay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/WorldMapTransforms.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/WorldSafeLocs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/Hotfixes/WorldSafeLocsLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AccessRequirement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AchievementDbc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AchievementReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AreatriggerInvolvedrelation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AreatriggerScripts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AreatriggerTavern.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AreatriggerTeleport.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AreatriggerTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AreatriggerTemplateActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/AreatriggerTemplatePolygonVertices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/BattlePetBreeds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/BattlePetQuality.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/BattlegroundTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/BattlemasterEntry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/BlackmarketTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CharacterTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CharacterTemplateClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ClassExpansionRequirement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Command.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Conditions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ConversationActorTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ConversationActors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ConversationLineTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ConversationTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Creature.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureAddon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureClasslevelstats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureDefaultTrainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureEquipTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureFormations.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureModelInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureOnkillReputation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureQuestender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureQuestitem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureQueststarter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureTemplateAddon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureTemplateLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureTemplateScaling.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureTextLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CriteriaData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Disables.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/DisenchantLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ExplorationBasexp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/FishingLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventBattlegroundHoliday.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventCreature.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventCreatureQuest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventGameobject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventGameobjectQuest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventModelEquip.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventNpcVendor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventNpcflag.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventPrerequisite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventQuestCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameEventSeasonalQuestrelation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameTele.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameWeather.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Gameobject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameobjectAddon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameobjectLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameobjectQuestender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameobjectQuestitem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameobjectQueststarter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameobjectTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameobjectTemplateAddon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GameobjectTemplateLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GarrisonFollowerClassSpecAbilities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GarrisonPlotFinalizeInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GossipMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GossipMenuOption.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GossipMenuOptionAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GossipMenuOptionBox.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GossipMenuOptionLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GossipMenuOptionTrainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GraveyardZone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GuildRewards.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/GuildRewardsReqAchievements.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/InstanceEncounters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/InstanceTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ItemEnchantmentTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ItemLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ItemScriptNames.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ItemTemplateAddon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/LfgDungeonRewards.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/LfgDungeonTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/LinkedRespawn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/LocalesAchievementReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/MailLevelReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/MailLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/MillingLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/MountDefinitions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/NpcSpellclickSpells.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/NpcText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/NpcVendor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/OutdoorpvpTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PageText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PageTextLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PetLevelstats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PetNameGeneration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PhaseArea.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PickpocketingLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerFactionchangeAchievement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerFactionchangeItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerFactionchangeQuests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerFactionchangeReputations.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerFactionchangeSpells.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerFactionchangeTitles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerLevelstats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerXpForLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Playerchoice.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerchoiceLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerchoiceResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerchoiceResponseLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerchoiceResponseReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerchoiceResponseRewardCurrency.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerchoiceResponseRewardFaction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayerchoiceResponseRewardItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Playercreateinfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayercreateinfoAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayercreateinfoCastSpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayercreateinfoItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PlayercreateinfoSpellCustom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PointsOfInterest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PointsOfInterestLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PoolCreature.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PoolGameobject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PoolPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PoolQuest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/PoolTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ProspectingLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestDetails.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestGreeting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestGreetingLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestMailSender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestObjectives.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestObjectivesLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestOfferReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestOfferRewardLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestPoi.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestPoiPoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestRequestItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestRequestItemsLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestTemplateAddon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestTemplateLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/QuestVisualEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/RaceUnlockRequirement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ReferenceLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ReputationRewardRate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ReputationSpilloverTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ScenarioPoi.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ScenarioPoiPoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Scenarios.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SceneTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ScriptSplineChainMeta.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ScriptSplineChainWaypoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/ScriptWaypoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SkillDiscoveryTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SkillExtraItemTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SkillFishingBaseLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SkillPerfectItemTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SkillTiers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SkinningLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SmartScripts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellArea.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellAreatrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellAreatriggerCircular.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellAreatriggerSplines.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellCustomAttr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellDbc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellEnchantProcData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellGroupStackRules.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellLearnSpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellLootTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellPetAuras.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellProc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellRequired.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellTargetPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellThreat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpellTotemModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/SpelleffectDbc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/TerrainSwapDefaults.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/TerrainWorldmap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Trainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/TrainerLocale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/TrainerSpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Transports.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/TrinityString.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Updates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/UpdatesInclude.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/VehicleAccessory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/VehicleTemplateAccessory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Version.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/WardenChecks.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/WaypointData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/WaypointScripts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/Waypoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/bin/Debug/netcoreapp2.1/Delta.Trinity.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/bin/Debug/netcoreapp2.1/Delta.Trinity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/bin/Debug/netcoreapp2.1/Delta.Trinity.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Debug/netcoreapp2.1/Delta.Trinity.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Delta.Trinity.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Delta.Trinity.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/Delta.Trinity.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.Trinity/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Delta.WebApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Models/ErrorViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/Home/About.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/Home/Contact.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.DataAccess.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.DataAccess.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.Model.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.Model.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.Trinity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.Trinity.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.WebApp.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.WebApp.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.WebApp.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.WebApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.WebApp.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.WebApp.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/bin/Debug/netcoreapp2.1/Delta.WebApp.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.RazorCoreGenerate.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.RazorTargetAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.RazorTargetAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.TagHelpers.input.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.TagHelpers.output.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Delta.WebApp.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Delta.WebApp.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Delta.WebApp.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Delta.WebApp.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/Delta.WebApp.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/css/site.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/images/banner1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/images/banner2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/images/banner3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/js/site.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/bootstrap/dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delta.WebApp/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaCMS.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Delta.Trinity/World/CreatureSummonGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeltaCMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/WorldDataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/WorldDataContext.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -878,42 +23,102 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="66" />
+          <entry key="cs" value="78" />
           <entry key="json" value="2" />
           <entry key="sln" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="66" />
+          <entry key="C#" value="78" />
           <entry key="JSON" value="2" />
           <entry key="Solution File" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2921" />
+          <entry key="cs" value="7771" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2921" />
+          <entry key="C#" value="7771" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/WorldDataContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="237" column="62" lean-forward="true" selection-start-line="237" selection-start-column="62" selection-end-line="237" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/WorldDataContext.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="277">
+                  <caret line="441" column="15" lean-forward="true" selection-start-line="441" selection-start-column="15" selection-end-line="441" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/SpellScriptName.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="128">
+                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                  <folding>
+                    <marker date="1541441622450" expanded="true" signature="29:175" ph="{...}" />
+                    <marker date="1541441622450" expanded="true" signature="64:173" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/EventScript.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="384">
+                  <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+                  <folding>
+                    <marker date="1541350104022" expanded="true" signature="29:545" ph="{...}" />
+                    <marker date="1541350104022" expanded="true" signature="60:543" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/SpellLinkedSpell.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+                  <folding>
+                    <marker date="1541434921187" expanded="true" signature="29:271" ph="{...}" />
+                    <marker date="1541434921187" expanded="true" signature="65:269" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/CreatureSummonGroup.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="384">
+                  <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+                  <folding>
+                    <marker date="1541344282627" expanded="true" signature="29:603" ph="{...}" />
+                    <marker date="1541344282627" expanded="true" signature="68:601" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -928,6 +133,16 @@
       <find>characterspell</find>
       <find>GuildMem</find>
       <find>PetSpell</find>
+      <find>CreatureQueststarter</find>
+      <find>Explorat</find>
+      <find>modelBuilder.Entity&lt;EventScript&gt;(entity =&gt;</find>
+      <find>SpellLearn</find>
+      <find>SpellScri</find>
+      <find>SpellTar</find>
+      <find>SpellTargetPos</find>
+      <find>char(64</find>
+      <find>SpellScriptName</find>
+      <find>SpellRequired</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -940,11 +155,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Characters/CharacterSpellCharge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delta.Trinity/World/CreatureSummonGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Characters/GuildMember.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Characters/PetSpellCharge.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Delta.Trinity/Characters/CharacterBanned.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/AccountMuted.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/AccountBanned.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delta.Trinity/World/EventScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/RbacLinkedPermissions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/Autobroadcast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/Account.cs" root0="FORCE_HIGHLIGHTING" />
@@ -961,10 +177,14 @@
     <setting file="file://$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/AuthDataContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/BattlePets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/LogsIpActions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delta.Trinity/World/GameEventArenaSeason.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetAccountBans.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delta.Trinity/World/SpellLinkedSpell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/Ip2nationCountries.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Characters/CharacterTransmogOutfits.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delta.Trinity/World/SpellScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/BattlenetAccountHeirlooms.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delta.Trinity/World/SpellScriptName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/AccountAccess.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/RbacDefaultPermissions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Auth/AccountLastPlayedCharacter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -979,6 +199,8 @@
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Characters/CharacterAuraEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Characters/Characters.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delta.Trinity/Characters/CharacterBanned.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delta.Trinity/World/AreatriggerScripts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/WorldDataContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Delta.Trinity/Hotfixes/AreaTableLocale.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -1018,6 +240,12 @@
         <option value="$PROJECT_DIR$/Delta.Trinity/Class1.cs" />
         <option value="$PROJECT_DIR$/Delta.DataAccess/Contexts/HotfixDataContext.cs" />
         <option value="$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/HotfixDataContext.cs" />
+        <option value="$PROJECT_DIR$/Delta.Trinity/World/CreatureSummonGroup.cs" />
+        <option value="$PROJECT_DIR$/Delta.Trinity/World/EventScript.cs" />
+        <option value="$PROJECT_DIR$/Delta.Trinity/World/GameEventArenaSeason.cs" />
+        <option value="$PROJECT_DIR$/Delta.Trinity/World/SpellLinkedSpell.cs" />
+        <option value="$PROJECT_DIR$/Delta.Trinity/World/SpellScript.cs" />
+        <option value="$PROJECT_DIR$/Delta.Trinity/World/SpellScriptName.cs" />
         <option value="$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/WorldDataContext.cs" />
       </list>
     </option>
@@ -1029,8 +257,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="324" />
     <option name="y" value="23" />
-    <option name="width" value="2560" />
+    <option name="width" value="2236" />
     <option name="height" value="1337" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -1063,6 +292,13 @@
               <item name="DeltaCMS" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Delta.Domain" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Delta.Trinity" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DeltaCMS" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Delta.Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Delta.Trinity" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="World" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -1161,12 +397,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541290976365</updated>
-      <workItem from="1541290977614" duration="18428000" />
+      <workItem from="1541290977614" duration="26195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18428000" />
+    <option name="totallyTimeSpent" value="26195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1178,15 +414,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1337" extended-state="0" />
+    <frame x="324" y="23" width="2236" height="1337" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24980143" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2064722" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Stacktrace" visible="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="1" sideWeight="0.49960285" weight="0.32931727" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992057" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992057" weight="0.32931727" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50119144" side_tool="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49960285" weight="0.32931727" />
@@ -1224,29 +461,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DeltaCMS.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delta.Model/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delta.Core/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delta.DataAcess/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delta.DataAccess/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Delta.Core/IAggregateRoot.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1846,10 +1060,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/CreatureSummonGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1541344282627" expanded="true" signature="29:603" ph="{...}" />
+            <marker date="1541344282627" expanded="true" signature="68:601" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/GameEventArenaSeason.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1541404726367" expanded="true" signature="29:176" ph="{...}" />
+            <marker date="1541404726367" expanded="true" signature="69:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/EventScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1541350104022" expanded="true" signature="29:545" ph="{...}" />
+            <marker date="1541350104022" expanded="true" signature="60:543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/SpellLinkedSpell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1541434921187" expanded="true" signature="29:271" ph="{...}" />
+            <marker date="1541434921187" expanded="true" signature="65:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/SpellScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <marker date="1541437811711" expanded="true" signature="29:596" ph="{...}" />
+            <marker date="1541437811711" expanded="true" signature="60:594" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/AreatriggerScripts.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <marker date="1541326784450" expanded="true" signature="29:175" ph="{...}" />
+            <marker date="1541326784450" expanded="true" signature="75:173" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delta.Trinity/World/SpellScriptName.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1541441622450" expanded="true" signature="29:175" ph="{...}" />
+            <marker date="1541441622450" expanded="true" signature="64:173" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Delta.DataAccess/Contexts/Trinity/WorldDataContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="237" column="62" lean-forward="true" selection-start-line="237" selection-start-column="62" selection-end-line="237" selection-end-column="62" />
+        <state relative-caret-position="277">
+          <caret line="441" column="15" lean-forward="true" selection-start-line="441" selection-start-column="15" selection-end-line="441" selection-end-column="15" />
         </state>
       </provider>
     </entry>

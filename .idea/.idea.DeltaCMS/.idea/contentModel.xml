@@ -556,6 +556,7 @@
           <e p="CreatureQuestender.cs" t="Include" />
           <e p="CreatureQuestitem.cs" t="Include" />
           <e p="CreatureQueststarter.cs" t="Include" />
+          <e p="CreatureSummonGroup.cs" t="Include" />
           <e p="CreatureTemplate.cs" t="Include" />
           <e p="CreatureTemplateAddon.cs" t="Include" />
           <e p="CreatureTemplateLocale.cs" t="Include" />
@@ -565,9 +566,11 @@
           <e p="CriteriaData.cs" t="Include" />
           <e p="Disables.cs" t="Include" />
           <e p="DisenchantLootTemplate.cs" t="Include" />
+          <e p="EventScript.cs" t="Include" />
           <e p="ExplorationBasexp.cs" t="Include" />
           <e p="FishingLootTemplate.cs" t="Include" />
           <e p="GameEvent.cs" t="Include" />
+          <e p="GameEventArenaSeason.cs" t="Include" />
           <e p="GameEventBattlegroundHoliday.cs" t="Include" />
           <e p="GameEventCondition.cs" t="Include" />
           <e p="GameEventCreature.cs" t="Include" />
@@ -701,10 +704,13 @@
           <e p="SpellGroup.cs" t="Include" />
           <e p="SpellGroupStackRules.cs" t="Include" />
           <e p="SpellLearnSpell.cs" t="Include" />
+          <e p="SpellLinkedSpell.cs" t="Include" />
           <e p="SpellLootTemplate.cs" t="Include" />
           <e p="SpellPetAuras.cs" t="Include" />
           <e p="SpellProc.cs" t="Include" />
           <e p="SpellRequired.cs" t="Include" />
+          <e p="SpellScript.cs" t="Include" />
+          <e p="SpellScriptName.cs" t="Include" />
           <e p="SpellTargetPosition.cs" t="Include" />
           <e p="SpellThreat.cs" t="Include" />
           <e p="SpellTotemModel.cs" t="Include" />
