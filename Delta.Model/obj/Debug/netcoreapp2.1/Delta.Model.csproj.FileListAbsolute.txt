@@ -1,9 +1,0 @@
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/bin/Debug/netcoreapp2.1/Delta.Model.deps.json
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/bin/Debug/netcoreapp2.1/Delta.Model.dll
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/bin/Debug/netcoreapp2.1/Delta.Model.pdb
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.csprojAssemblyReference.cache
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.csproj.CoreCompileInputs.cache
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.AssemblyInfoInputs.cache
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.AssemblyInfo.cs
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.dll
-/Users/nixholas/Projects/DeltaCMS/Delta.Model/obj/Debug/netcoreapp2.1/Delta.Model.pdb
