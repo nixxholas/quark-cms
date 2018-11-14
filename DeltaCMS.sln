@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.DataAccess", "Delta.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.Trinity", "Delta.Trinity\Delta.Trinity.csproj", "{CE8E74FF-B9D6-4B62-B0C9-D5C0E3E6CBF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.Application.Bus", "Delta.Application.Bus\Delta.Application.Bus.csproj", "{0BB56115-788A-4919-884E-7801B2F68558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,7 @@ Global
 		{C5D9BEC6-A7EB-40FA-BFFA-A5614FD2F0D1} = {A955A249-0336-427E-BB4C-DAD5744BE235}
 		{93E024D9-7555-4C6B-B92E-50BBA571D57E} = {AC9E2E9C-0C92-4A3C-862E-123BC0435BA1}
 		{CE8E74FF-B9D6-4B62-B0C9-D5C0E3E6CBF3} = {A3367B64-8F48-4040-B1D9-430E7437C32D}
+		{0BB56115-788A-4919-884E-7801B2F68558} = {6CC18C74-AD1F-4AB2-AC0D-69196B0220FE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BD93F332-4C65-4860-803A-E26A22891444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -51,5 +54,9 @@ Global
 		{CE8E74FF-B9D6-4B62-B0C9-D5C0E3E6CBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE8E74FF-B9D6-4B62-B0C9-D5C0E3E6CBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE8E74FF-B9D6-4B62-B0C9-D5C0E3E6CBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB56115-788A-4919-884E-7801B2F68558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB56115-788A-4919-884E-7801B2F68558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB56115-788A-4919-884E-7801B2F68558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB56115-788A-4919-884E-7801B2F68558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
