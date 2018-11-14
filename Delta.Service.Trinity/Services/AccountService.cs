@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using AutoMapper;
 using Delta.Core.Bus;
 using Delta.Service.Trinity.Services.Interfaces;
 using Delta.Trinity.DataAccess.Repositories.Auth.Interfaces;
@@ -9,13 +10,15 @@ namespace Delta.Service.Trinity.Services
 {
     public class AccountService : IAccountService
     {   
+        private readonly IMapper _mapper;
         private readonly IAccountRepository _accountRepository;
         private readonly IMediatorHandler Bus;
         
-        public AccountService(
+        public AccountService(IMapper mapper,
             IAccountRepository accountRepository,
             IMediatorHandler bus)
         {
+            _mapper = mapper;
             _accountRepository = accountRepository;
             Bus = bus;
         }
@@ -32,8 +35,7 @@ namespace Delta.Service.Trinity.Services
 
         public IEnumerable<AccountViewModel> GetAll()
         {
-            //return _accountRepository.GetAll().ProjectTo<AccountViewModel>();
-            throw new NotImplementedException();
+            return _accountRepository.GetAll().ProjectTo<AccountViewModel>();
         }
 
         public AccountViewModel GetById(int id)
