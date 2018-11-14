@@ -6,8 +6,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delta.Infrastructure", "Del
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delta.MVC", "Delta.MVC", "{A955A249-0336-427E-BB4C-DAD5744BE235}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delta.Application", "Delta.Application", "{6CC18C74-AD1F-4AB2-AC0D-69196B0220FE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.Model", "Delta.Model\Delta.Model.csproj", "{BD93F332-4C65-4860-803A-E26A22891444}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.Core", "Delta.Core\Delta.Core.csproj", "{6D80E26E-7346-488B-965C-A45EB03EDB74}"
