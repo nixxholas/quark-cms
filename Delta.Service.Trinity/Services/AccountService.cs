@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using Delta.Core.Bus;
 using Delta.Service.Trinity.Services.Interfaces;
 using Delta.Trinity.DataAccess.Repositories.Auth.Interfaces;
@@ -35,7 +37,7 @@ namespace Delta.Service.Trinity.Services
 
         public IEnumerable<AccountViewModel> GetAll()
         {
-            return _accountRepository.GetAll().ProjectTo<AccountViewModel>();
+            return _accountRepository.GetAll().AsQueryable().ProjectTo<AccountViewModel>();
         }
 
         public AccountViewModel GetById(int id)
