@@ -1,0 +1,14 @@
+using System.Collections.Generic;
+using Delta.Trinity.Auth;
+
+namespace Delta.Trinity.DataAccess.Repositories.Auth.Interfaces
+{
+    public interface IAccountRepository
+    {
+        Account GetById(int id);
+
+        Account GetByUsername(string username);
+
+        ICollection<Account> GetByLastKnownIp(string ipAddress);
+    }
+}

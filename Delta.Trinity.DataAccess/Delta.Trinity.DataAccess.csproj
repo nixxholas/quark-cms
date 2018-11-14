@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Delta.Querying\Delta.Querying.csproj" />
+      <ProjectReference Include="..\Delta.Sourcing\Delta.Sourcing.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Repositories\Characters" />
+      <Folder Include="Repositories\Hotfixes" />
+      <Folder Include="Repositories\World" />
+    </ItemGroup>
+
+</Project>
