@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Delta.Core.Bus;
 using Delta.DataAccess.Contexts.Trinity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,6 +27,8 @@ namespace Delta.WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            
             services.AddDbContext<AuthDataContext>(options =>
             {
                 var connStr = Configuration.GetConnectionString("Trinity:Auth");
@@ -53,7 +56,9 @@ namespace Delta.WebApp
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            
+            services.AddScoped<IMediatorHandler, InMemoryBus>();
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

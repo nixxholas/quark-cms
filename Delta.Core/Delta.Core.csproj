@@ -9,4 +9,10 @@
       <ProjectReference Include="..\Delta.Trinity\Delta.Trinity.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MediatR">
+        <Version>5.1.0</Version>
+      </PackageReference>
+    </ItemGroup>
+
 </Project>

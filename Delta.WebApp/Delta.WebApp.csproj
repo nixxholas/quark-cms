@@ -9,7 +9,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Delta.DataAccess\Delta.DataAccess.csproj" />
+      <ProjectReference Include="..\Delta.Application\Delta.Application.csproj" />
     </ItemGroup>
 
 </Project>
