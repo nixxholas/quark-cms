@@ -1,9 +1,9 @@
 ﻿using Delta.Trinity.Hotfixes;
 using Microsoft.EntityFrameworkCore;
-using Creature = Delta.Trinity.World.Creature;
-using SpellLearnSpell = Delta.Trinity.World.SpellLearnSpell;
-using Updates = Delta.Trinity.World.Updates;
-using UpdatesInclude = Delta.Trinity.World.UpdatesInclude;
+using Creature = Delta.Trinity.Hotfixes.Creature;
+using SpellLearnSpell = Delta.Trinity.Hotfixes.SpellLearnSpell;
+using Updates = Delta.Trinity.Hotfixes.Updates;
+using UpdatesInclude = Delta.Trinity.Hotfixes.UpdatesInclude;
 
 namespace Delta.DataAccess.Contexts.Trinity
 {
