@@ -5,6 +5,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="FluentValidation.AspNetCore">
+        <Version>8.0.100</Version>
+      </PackageReference>
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer">
         <Version>2.2.0-preview3-35497</Version>
       </PackageReference>

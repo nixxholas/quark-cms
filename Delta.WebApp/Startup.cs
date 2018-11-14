@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Delta.Core.Bus;
+using Delta.DataAccess;
 using Delta.DataAccess.Contexts.Trinity;
+using Delta.DataAccess.Interfaces;
+using Delta.Trinity.DataAccess.Repositories.Auth;
+using Delta.Trinity.DataAccess.Repositories.Auth.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -58,6 +62,12 @@ namespace Delta.WebApp
             });
             
             services.AddScoped<IMediatorHandler, InMemoryBus>();
+
+            services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork<AuthDataContext>>();
+            services.AddScoped<IUnitOfWork, UnitOfWork<CharactersDataContext>>();
+            services.AddScoped<IUnitOfWork, UnitOfWork<HotfixDataContext>>();
+            services.AddScoped<IUnitOfWork, UnitOfWork<WorldDataContext>>();
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

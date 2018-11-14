@@ -21,9 +21,9 @@ namespace Delta.Querying
 
         protected void NotifyValidationErrors(Command message)
         {
-            foreach (var error in message.ValidationResult.MemberNames)
+            foreach (var error in message.ValidationResult.Errors)
             {
-                _bus.RaiseEvent(new DomainNotification(message.MessageType, error));
+                _bus.RaiseEvent(new DomainNotification(message.MessageType, error.ErrorMessage));
             }
         }
 

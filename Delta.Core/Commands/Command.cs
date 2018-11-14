@@ -1,6 +1,6 @@
 using System;
-using System.ComponentModel.DataAnnotations;
 using Delta.Core.Events;
+using FluentValidation.Results;
 
 namespace Delta.Core.Commands
 {
