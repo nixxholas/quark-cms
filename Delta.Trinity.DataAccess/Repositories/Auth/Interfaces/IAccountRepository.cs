@@ -9,6 +9,8 @@ namespace Delta.Trinity.DataAccess.Repositories.Auth.Interfaces
 
         Account GetByUsername(string username);
 
+        IEnumerable<Account> GetAll();
+
         ICollection<Account> GetByLastKnownIp(string ipAddress);
     }
 }

@@ -14,6 +14,11 @@ namespace Delta.Trinity.DataAccess.Repositories.Auth
         {
         }
 
+        public IEnumerable<Account> GetAll()
+        {
+            return _dbSet;
+        }
+
         public Account GetById(int id)
         {
             return _dbSet.SingleOrDefault(account => account.Id.Equals(id));
