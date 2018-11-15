@@ -1,12 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using Delta.DataAccess;
 using Delta.DataAccess.Contexts.Trinity;
+using Delta.DataAccess.Repositories.Auth.Interfaces;
 using Delta.Trinity.Auth;
-using Delta.Trinity.DataAccess.Repositories.Auth.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
-namespace Delta.Trinity.DataAccess.Repositories.Auth
+namespace Delta.DataAccess.Repositories.Auth
 {
     public class AccountRepository : Repository<Account>, IAccountRepository
     {

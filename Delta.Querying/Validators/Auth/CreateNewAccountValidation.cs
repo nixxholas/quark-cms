@@ -1,6 +1,6 @@
-using Delta.Trinity.DataAccess.Commands.Auth;
+using Delta.Querying.Commands.Auth;
 
-namespace Delta.Trinity.DataAccess.Validators.Auth
+namespace Delta.Querying.Validators.Auth
 {
     public class CreateNewAccountValidation : AccountValidation<CreateNewAccountCommand>
     {

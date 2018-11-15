@@ -1,8 +1,6 @@
-using Delta.DataAccess;
 using Delta.DataAccess.Contexts.Trinity;
-using Microsoft.EntityFrameworkCore;
 
-namespace Delta.Trinity.DataAccess.Repositories
+namespace Delta.DataAccess.Repositories
 {
     public class BaseAuthRepository<T> : Repository<T> where T : class
     {

@@ -1,8 +1,7 @@
-using System;
-using Delta.Trinity.DataAccess.Commands.Auth;
+using Delta.Querying.Commands.Auth;
 using FluentValidation;
 
-namespace Delta.Trinity.DataAccess.Validators.Auth
+namespace Delta.Querying.Validators.Auth
 {
     public abstract class AccountValidation<T> : AbstractValidator<T> where T : AccountCommand
     {

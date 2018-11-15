@@ -1,6 +1,6 @@
 using Delta.Core.Commands;
 
-namespace Delta.Trinity.DataAccess.Commands.Auth
+namespace Delta.Querying.Commands.Auth
 {
     public abstract class AccountCommand : Command
     {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Delta.Core.Notifications;
 using MediatR;
 
-namespace Delta.Querying
+namespace Delta.DataAccess
 {
     public class DomainNotificationHandler : INotificationHandler<DomainNotification>
     {

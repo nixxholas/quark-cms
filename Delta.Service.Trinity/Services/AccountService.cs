@@ -4,9 +4,9 @@ using System.Linq;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Delta.Core.Bus;
+using Delta.DataAccess.Repositories.Auth.Interfaces;
+using Delta.Querying.Commands.Auth;
 using Delta.Service.Trinity.Services.Interfaces;
-using Delta.Trinity.DataAccess.Commands.Auth;
-using Delta.Trinity.DataAccess.Repositories.Auth.Interfaces;
 using Delta.Trinity.DataAccess.ViewModels;
 
 namespace Delta.Service.Trinity.Services

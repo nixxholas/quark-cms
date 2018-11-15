@@ -4,7 +4,7 @@ using Delta.Core.Notifications;
 using Delta.DataAccess.Interfaces;
 using MediatR;
 
-namespace Delta.Querying
+namespace Delta.DataAccess
 {
     public class CommandHandler
     {
@@ -32,7 +32,7 @@ namespace Delta.Querying
             if (_notifications.HasNotifications()) return false;
             if (_uow.Commit()) return true;
 
-            _bus.RaiseEvent(new DomainNotification("Commit", "We have a problem saving your data."));
+            _bus.RaiseEvent(new DomainNotification("Commit", "We had a problem during saving your data."));
             return false;
         }
     }

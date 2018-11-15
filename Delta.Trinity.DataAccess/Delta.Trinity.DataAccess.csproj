@@ -9,10 +9,4 @@
       <ProjectReference Include="..\Delta.Sourcing\Delta.Sourcing.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Repositories\Characters" />
-      <Folder Include="Repositories\Hotfixes" />
-      <Folder Include="Repositories\World" />
-    </ItemGroup>
-
 </Project>

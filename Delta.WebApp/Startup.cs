@@ -4,11 +4,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using Delta.Core;
 using Delta.Core.Bus;
+using Delta.Core.Notifications;
 using Delta.DataAccess;
 using Delta.DataAccess.Contexts.Trinity;
 using Delta.DataAccess.Interfaces;
-using Delta.Trinity.DataAccess.Repositories.Auth;
-using Delta.Trinity.DataAccess.Repositories.Auth.Interfaces;
+using Delta.DataAccess.Repositories.Auth;
+using Delta.DataAccess.Repositories.Auth.Interfaces;
+using Delta.Querying;
+using Delta.Querying.Commands.Auth;
+using Delta.Querying.Commands.Auth.Handlers;
+using Delta.Service.Trinity.Services;
+using Delta.Service.Trinity.Services.Interfaces;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -64,7 +71,16 @@ namespace Delta.WebApp
             });
             
             services.AddScoped<IMediatorHandler, InMemoryBus>();
+            
+            // Services
+            services.AddScoped<IAccountService, AccountService>();
+            
+            // Domain Events
+            services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
 
+            // Domain Commands
+            services.AddScoped<IRequestHandler<CreateNewAccountCommand>, AccountCommandHandler>();
+            
             services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork<AuthDataContext>>();
             services.AddScoped<IUnitOfWork, UnitOfWork<CharactersDataContext>>();

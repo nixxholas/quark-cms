@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Delta.Trinity.Auth;
 
-namespace Delta.Trinity.DataAccess.Repositories.Auth.Interfaces
+namespace Delta.DataAccess.Repositories.Auth.Interfaces
 {
     public interface IAccountRepository
     {

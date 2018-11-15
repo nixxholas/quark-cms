@@ -1,4 +1,5 @@
 using Delta.Core.Notifications;
+using Delta.DataAccess;
 using Delta.Querying;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
