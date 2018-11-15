@@ -9,6 +9,8 @@ namespace Delta.DataAccess.Repositories.Auth.Interfaces
 
         Account GetByUsername(string username);
 
+        Account GetByEmail(string email);
+
         IEnumerable<Account> GetAll();
 
         ICollection<Account> GetByLastKnownIp(string ipAddress);

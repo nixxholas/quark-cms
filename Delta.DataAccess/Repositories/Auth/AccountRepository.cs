@@ -17,6 +17,11 @@ namespace Delta.DataAccess.Repositories.Auth
             return _dbSet;
         }
 
+        public Account GetByEmail(string email)
+        {
+            return _dbSet.FirstOrDefault(account => account.Email.Equals(email));
+        }
+
         public Account GetById(int id)
         {
             return _dbSet.SingleOrDefault(account => account.Id.Equals(id));

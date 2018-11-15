@@ -43,7 +43,7 @@ namespace Delta.Querying.Commands.Auth.Handlers
                 return Task.CompletedTask;
             }
             
-            _customerRepository.Add(account);
+            _accountRepository.Add(account);
 
             if (Commit())
             {
