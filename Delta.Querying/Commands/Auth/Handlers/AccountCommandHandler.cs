@@ -7,6 +7,7 @@ using Delta.DataAccess;
 using Delta.DataAccess.Interfaces;
 using Delta.DataAccess.Repositories.Auth;
 using Delta.DataAccess.Repositories.Auth.Interfaces;
+using Delta.Querying.Events.Auth;
 using Delta.Trinity.Auth;
 using MediatR;
 
@@ -47,7 +48,7 @@ namespace Delta.Querying.Commands.Auth.Handlers
 
             if (Commit())
             {
-                Bus.RaiseEvent(new CustomerRegisteredEvent(account.Id, account.Name, account.Email, account.BirthDate));
+                Bus.RaiseEvent(new AccountRegisteredEvent(account.Username, account.Email, account.ShaPassHash));
             }
 
             return Task.CompletedTask;
