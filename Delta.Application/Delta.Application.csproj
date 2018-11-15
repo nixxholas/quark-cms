@@ -4,4 +4,8 @@
         <TargetFramework>netcoreapp2.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Delta.Trinity.DataAccess\Delta.Trinity.DataAccess.csproj" />
+    </ItemGroup>
+
 </Project>

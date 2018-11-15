@@ -9,6 +9,14 @@ namespace Delta.Trinity.Auth
         {
             RbacAccountPermissions = new HashSet<RbacAccountPermissions>();
         }
+        
+        public Account(string username, string shaPassHash, string email)
+        {
+            Email = email;
+            Username = username;
+            ShaPassHash = shaPassHash;
+            RbacAccountPermissions = new HashSet<RbacAccountPermissions>();
+        }
 
         public int Id { get; set; }
         public string Username { get; set; }
