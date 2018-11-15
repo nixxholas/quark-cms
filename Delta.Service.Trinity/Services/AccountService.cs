@@ -5,6 +5,7 @@ using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Delta.Core.Bus;
 using Delta.Service.Trinity.Services.Interfaces;
+using Delta.Trinity.DataAccess.Commands.Auth;
 using Delta.Trinity.DataAccess.Repositories.Auth.Interfaces;
 using Delta.Trinity.DataAccess.ViewModels;
 
@@ -30,9 +31,10 @@ namespace Delta.Service.Trinity.Services
             GC.SuppressFinalize(this);
         }
 
-        public void Register(AccountViewModel customerViewModel)
+        public void Register(AccountViewModel accountViewModel)
         {
-            throw new NotImplementedException();
+            var registerCommand = _mapper.Map<CreateNewAccountCommand>(accountViewModel);
+            Bus.SendCommand(registerCommand);
         }
 
         public IEnumerable<AccountViewModel> GetAll()

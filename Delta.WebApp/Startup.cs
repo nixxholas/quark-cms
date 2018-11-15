@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Delta.Core;
 using Delta.Core.Bus;
 using Delta.DataAccess;
 using Delta.DataAccess.Contexts.Trinity;
@@ -16,6 +17,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Delta.WebApp
 {
@@ -70,6 +72,30 @@ namespace Delta.WebApp
             services.AddScoped<IUnitOfWork, UnitOfWork<WorldDataContext>>();
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            
+            services.AddSwaggerGen(swaggerGenOptions =>
+            {
+                swaggerGenOptions.SwaggerDoc(GlobalApiVariables.CURRENT_API_VERSION, new Info
+                {
+                    Version = GlobalApiVariables.CURRENT_API_VERSION,
+                    Title = "Delta API v1",
+                    Description = "Reference documentation for the usage of Nozomi.",
+                    TermsOfService = "None",
+                    Contact = new Contact
+                    {
+                        Name = "Nicholas Chen",
+                        Email = "nicholas@counter.network",
+                        Url = "https://twitter.com/nixxholas"
+                    },
+                    License = new License
+                    {
+                        Name = "Copyright (C) Hayate Inc. - All Rights Reserved",
+                        Url = ""
+                    }
+                });
+                
+                swaggerGenOptions.EnableAnnotations();
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

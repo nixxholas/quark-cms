@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Delta.Trinity.DataAccess.Commands.Auth;
 using Delta.Trinity.DataAccess.ViewModels;
 
 namespace Delta.Service.Trinity.Services.Interfaces
