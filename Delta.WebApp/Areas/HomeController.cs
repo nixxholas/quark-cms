@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using System.Diagnostics;
+using Delta.Core.Notifications;
 using Delta.WebApp.Models;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Delta.WebApp.Controllers
+namespace Delta.WebApp.Areas
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
+        public HomeController(INotificationHandler<DomainNotification> notifications) : base(notifications)
+        {
+        }
+        
         public IActionResult Index()
         {
             return View();

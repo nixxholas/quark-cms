@@ -3,7 +3,7 @@ using Delta.Querying;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Delta.WebApp.Controllers
+namespace Delta.WebApp.Areas
 {
     public class BaseController : Controller
     {

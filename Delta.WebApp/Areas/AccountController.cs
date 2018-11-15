@@ -1,11 +1,10 @@
 using Delta.Core.Notifications;
 using Delta.Service.Trinity.Services.Interfaces;
-using Delta.Trinity.DataAccess.Commands.Auth;
 using Delta.Trinity.DataAccess.ViewModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Delta.WebApp.Controllers
+namespace Delta.WebApp.Areas
 {
     public class AccountController : BaseController
     {
