@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using Delta.DataAccess.Interfaces;
 using Delta.Trinity.Auth;
 
 namespace Delta.DataAccess.Repositories.Auth.Interfaces
 {
-    public interface IAccountRepository
+    public interface IAccountRepository : IRepository<Account>
     {
         Account GetById(int id);
 
