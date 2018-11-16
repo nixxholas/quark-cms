@@ -22,11 +22,11 @@ namespace Delta.DataAccess.Contexts.Trinity
         public virtual DbSet<AccountLastPlayedCharacter> AccountLastPlayedCharacter { get; set; }
         public virtual DbSet<AccountMuted> AccountMuted { get; set; }
         public virtual DbSet<Autobroadcast> Autobroadcast { get; set; }
-        public virtual DbSet<BattlenetAccountBans> BattlenetAccountBans { get; set; }
-        public virtual DbSet<BattlenetAccountHeirlooms> BattlenetAccountHeirlooms { get; set; }
-        public virtual DbSet<BattlenetAccountMounts> BattlenetAccountMounts { get; set; }
-        public virtual DbSet<BattlenetAccounts> BattlenetAccounts { get; set; }
-        public virtual DbSet<BattlenetAccountToys> BattlenetAccountToys { get; set; }
+        public virtual DbSet<BattlenetAccountBan> BattlenetAccountBans { get; set; }
+        public virtual DbSet<BattlenetAccountHeirloom> BattlenetAccountHeirlooms { get; set; }
+        public virtual DbSet<BattlenetAccountMount> BattlenetAccountMounts { get; set; }
+        public virtual DbSet<BattlenetAccount> BattlenetAccounts { get; set; }
+        public virtual DbSet<BattlenetAccountToy> BattlenetAccountToys { get; set; }
         public virtual DbSet<BattlenetItemAppearances> BattlenetItemAppearances { get; set; }
         public virtual DbSet<BattlenetItemFavoriteAppearances> BattlenetItemFavoriteAppearances { get; set; }
         public virtual DbSet<BattlePets> BattlePets { get; set; }
@@ -364,7 +364,7 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasDefaultValueSql("1");
             });
 
-            modelBuilder.Entity<BattlenetAccountBans>(entity =>
+            modelBuilder.Entity<BattlenetAccountBan>(entity =>
             {
                 entity.HasKey(e => new { e.Id, e.Bandate });
 
@@ -398,7 +398,7 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasDefaultValueSql("0");
             });
 
-            modelBuilder.Entity<BattlenetAccountHeirlooms>(entity =>
+            modelBuilder.Entity<BattlenetAccountHeirloom>(entity =>
             {
                 entity.HasKey(e => new { e.AccountId, e.ItemId });
 
@@ -419,7 +419,7 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasDefaultValueSql("0");
             });
 
-            modelBuilder.Entity<BattlenetAccountMounts>(entity =>
+            modelBuilder.Entity<BattlenetAccountMount>(entity =>
             {
                 entity.HasKey(e => new { e.BattlenetAccountId, e.MountSpellId });
 
@@ -439,7 +439,7 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .HasDefaultValueSql("0");
             });
 
-            modelBuilder.Entity<BattlenetAccounts>(entity =>
+            modelBuilder.Entity<BattlenetAccount>(entity =>
             {
                 entity.ToTable("battlenet_accounts", "auth");
 
@@ -516,7 +516,7 @@ namespace Delta.DataAccess.Contexts.Trinity
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<BattlenetAccountToys>(entity =>
+            modelBuilder.Entity<BattlenetAccountToy>(entity =>
             {
                 entity.HasKey(e => new { e.AccountId, e.ItemId });
 
