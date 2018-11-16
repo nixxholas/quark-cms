@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace Delta.Trinity.Auth
 {
@@ -14,8 +15,8 @@ namespace Delta.Trinity.Auth
         
         public BattlenetAccount(string email, string shaPassHash)
         {
-            Email = email;
-            ShaPassHash = shaPassHash;
+            Email = email.ToUpper(CultureInfo.InvariantCulture);
+            ShaPassHash = shaPassHash.ToUpper(CultureInfo.InvariantCulture);
             Account = new HashSet<Account>();
             BattlenetItemAppearances = new HashSet<BattlenetItemAppearances>();
             BattlenetItemFavoriteAppearances = new HashSet<BattlenetItemFavoriteAppearances>();

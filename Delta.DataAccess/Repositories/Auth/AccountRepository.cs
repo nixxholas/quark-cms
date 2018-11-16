@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using Delta.DataAccess.Contexts.Trinity;
 using Delta.DataAccess.Repositories.Auth.Interfaces;
@@ -19,7 +20,7 @@ namespace Delta.DataAccess.Repositories.Auth
 
         public Account GetByEmail(string email)
         {
-            return _dbSet.FirstOrDefault(account => account.Email.Equals(email));
+            return _dbSet.FirstOrDefault(account => account.Email.Equals(email.ToUpper(CultureInfo.InvariantCulture)));
         }
 
         public Account GetById(int id)
@@ -29,7 +30,8 @@ namespace Delta.DataAccess.Repositories.Auth
 
         public Account GetByUsername(string username)
         {
-            return _dbSet.SingleOrDefault(account => account.Username.Equals(username));
+            return _dbSet.SingleOrDefault(account => account.Username.Equals(username.
+                ToUpper(CultureInfo.InvariantCulture)));
         }
 
         public ICollection<Account> GetByLastKnownIp(string ipAddress)
