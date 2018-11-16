@@ -1,6 +1,6 @@
 ﻿namespace Delta.Trinity.Auth
 {
-    public partial class BattlenetAccountBans
+    public partial class BattlenetAccountBan
     {
         public int Id { get; set; }
         public int Bandate { get; set; }

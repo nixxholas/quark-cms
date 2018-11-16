@@ -3,10 +3,19 @@ using System.Collections.Generic;
 
 namespace Delta.Trinity.Auth
 {
-    public partial class BattlenetAccounts
+    public partial class BattlenetAccount
     {
-        public BattlenetAccounts()
+        public BattlenetAccount()
         {
+            Account = new HashSet<Account>();
+            BattlenetItemAppearances = new HashSet<BattlenetItemAppearances>();
+            BattlenetItemFavoriteAppearances = new HashSet<BattlenetItemFavoriteAppearances>();
+        }
+        
+        public BattlenetAccount(string email, string shaPassHash)
+        {
+            Email = email;
+            ShaPassHash = shaPassHash;
             Account = new HashSet<Account>();
             BattlenetItemAppearances = new HashSet<BattlenetItemAppearances>();
             BattlenetItemFavoriteAppearances = new HashSet<BattlenetItemFavoriteAppearances>();

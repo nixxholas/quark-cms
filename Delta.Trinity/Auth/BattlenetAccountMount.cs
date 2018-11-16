@@ -1,6 +1,6 @@
 ﻿namespace Delta.Trinity.Auth
 {
-    public partial class BattlenetAccountMounts
+    public partial class BattlenetAccountMount
     {
         public int BattlenetAccountId { get; set; }
         public int MountSpellId { get; set; }

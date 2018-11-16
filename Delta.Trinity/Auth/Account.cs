@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace Delta.Trinity.Auth
 {
@@ -12,7 +13,8 @@ namespace Delta.Trinity.Auth
         
         public Account(string username, string shaPassHash, string email)
         {
-            Email = email;
+            Email = email.ToUpper(CultureInfo.InvariantCulture);
+            RegMail = email.ToUpper(CultureInfo.InvariantCulture);;
             Username = username;
             ShaPassHash = shaPassHash;
             RbacAccountPermissions = new HashSet<RbacAccountPermissions>();
@@ -45,7 +47,7 @@ namespace Delta.Trinity.Auth
         public int? BattlenetAccount { get; set; }
         public byte? BattlenetIndex { get; set; }
 
-        public virtual BattlenetAccounts BattlenetAccountNavigation { get; set; }
+        public virtual BattlenetAccount BattlenetAccountNavigation { get; set; }
         public virtual ICollection<RbacAccountPermissions> RbacAccountPermissions { get; set; }
     }
 }

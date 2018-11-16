@@ -6,6 +6,6 @@
         public short BlobIndex { get; set; }
         public int AppearanceMask { get; set; }
 
-        public virtual BattlenetAccounts BattlenetAccount { get; set; }
+        public virtual BattlenetAccount BattlenetAccount { get; set; }
     }
 }
