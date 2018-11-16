@@ -17,6 +17,8 @@ namespace Delta.Querying.Commands.Auth.Handlers
         IRequestHandler<CreateNewAccountCommand>
     {
         private readonly IAccountRepository _accountRepository;
+        private readonly IAccountAccessRepository _accountAccessRepository;
+        private readonly IBattlenetAccountRepository _battlenetAccountRepository;
         private readonly IMediatorHandler Bus;
 
         public AccountCommandHandler(IAccountRepository accountRepository, 
@@ -37,7 +39,10 @@ namespace Delta.Querying.Commands.Auth.Handlers
             }
 
             var account = new Account(message.Username, message.ShaPassHash, message.Email);
-
+            var bnetAccount = new BattlenetAccount(account.Email, account.ShaPassHash);
+            // TODO: Multi-realm support
+            var accountAccess = new AccountAccess(0, 1);
+            
             if (_accountRepository.GetByEmail(account.Email) != null)
             {
                 Bus.RaiseEvent(new DomainNotification(message.MessageType, "The customer e-mail has already been taken."));
@@ -45,6 +50,8 @@ namespace Delta.Querying.Commands.Auth.Handlers
             }
             
             _accountRepository.Add(account);
+            _battlenetAccountRepository.Add(bnetAccount);
+            _accountAccessRepository.Add(accountAccess);
 
             if (Commit())
             {
