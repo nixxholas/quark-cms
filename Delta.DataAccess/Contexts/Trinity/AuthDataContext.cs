@@ -764,6 +764,8 @@ namespace Delta.DataAccess.Contexts.Trinity
             {
                 entity.ToTable("logs", "auth");
 
+                entity.HasKey(e => new {e.Time, e.Realm, e.Type, e.Level, e.String}).HasName("Logs_CK");
+
                 entity.Property(e => e.Time)
                     .HasColumnName("time")
                     .HasColumnType("int(10) unsigned");

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using Delta.Model.Interfaces;
 
 namespace Delta.Trinity.Auth
 {
-    public partial class BattlenetAccount
+    public partial class BattlenetAccount : IUser
     {
         public BattlenetAccount()
         {

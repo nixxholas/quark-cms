@@ -4,17 +4,24 @@ using System.Linq;
 using System.Threading.Tasks;
 using Delta.Core;
 using Delta.Core.Bus;
+using Delta.Core.Events.Interfaces;
 using Delta.Core.Notifications;
 using Delta.DataAccess;
+using Delta.DataAccess.Contexts;
 using Delta.DataAccess.Contexts.Trinity;
 using Delta.DataAccess.Interfaces;
 using Delta.DataAccess.Repositories.Auth;
 using Delta.DataAccess.Repositories.Auth.Interfaces;
+using Delta.DataAccess.Repositories.EventSourcing;
+using Delta.Model.Interfaces;
 using Delta.Querying;
 using Delta.Querying.Commands.Auth;
 using Delta.Querying.Commands.Auth.Handlers;
 using Delta.Service.Trinity.Services;
 using Delta.Service.Trinity.Services.Interfaces;
+using Delta.Trinity.Auth;
+using Delta.WebApp.Extensions;
+using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -62,6 +69,11 @@ namespace Delta.WebApp
                 var connStr = Configuration.GetConnectionString("Trinity:World");
                 options.UseSqlServer(connStr);
             });
+            services.AddDbContext<EventStoreContext>(options =>
+            {
+                var connStr = Configuration.GetConnectionString("EventStore");
+                options.UseSqlServer(connStr);
+            });
             
             services.Configure<CookiePolicyOptions>(options =>
             {
@@ -81,12 +93,22 @@ namespace Delta.WebApp
             // Domain Commands
             services.AddScoped<IRequestHandler<CreateNewAccountCommand>, AccountCommandHandler>();
             
+            // General Database DI
             services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork<AuthDataContext>>();
             services.AddScoped<IUnitOfWork, UnitOfWork<CharactersDataContext>>();
             services.AddScoped<IUnitOfWork, UnitOfWork<HotfixDataContext>>();
             services.AddScoped<IUnitOfWork, UnitOfWork<WorldDataContext>>();
             
+            // Event Sourcing DI
+            services.AddScoped<IEventStoreRepository, EventStoreRepository>();
+            services.AddScoped<IEventStore, EventStore>();
+            
+            // Identity DI
+            services.AddScoped<IUser, Account>();
+            services.AddScoped<IUser, BattlenetAccount>();
+            
+            services.AddAutoMapperSetup();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             
             services.AddSwaggerGen(swaggerGenOptions =>
@@ -112,6 +134,9 @@ namespace Delta.WebApp
                 
                 swaggerGenOptions.EnableAnnotations();
             });
+            
+            // Adding MediatR for Domain Events and Notifications
+            services.AddMediatR(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
