@@ -26,7 +26,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Delta.Core\Delta.Core.csproj" />
+      <ProjectReference Include="..\Delta.Trinity\Delta.Trinity.csproj" />
     </ItemGroup>
 
 </Project>
